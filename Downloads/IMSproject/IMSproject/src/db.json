@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "user@example.com",
+      "password": "user123",
+      "role": "user"
+    },
+    {
+      "id": "0810",
+      "email": "moulee@gmail.com",
+      "password": "moulee123",
+      "role": "user"
+    },
+    {
+      "id": "1716",
+      "email": "saksham@gmail.com",
+      "password": "12345",
+      "role": "user"
+    },
+    {
+      "id": "3eea",
+      "email": "nandha@skcet.ac.in",
+      "password": "nandha123",
+      "role": "user"
+    },
+    {
+      "id": "d1ef",
+      "email": "mark@gmail.com",
+      "password": "mark",
+      "role": "user"
+    },
+    {
+      "id": "e865",
+      "email": "nandha@gmail.com",
+      "password": "nandha",
+      "role": "user"
+    }
+  ],
+  "admins": [
+    {
+      "id": "1",
+      "email": "admin@example.com",
+      "password": "admin123",
+      "role": "admin"
+    }
+  ]
+}
