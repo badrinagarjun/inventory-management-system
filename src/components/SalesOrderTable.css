@@ -1,0 +1,39 @@
+/* SalesOrderTable.css */
+
+.sales-order-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+  }
+  
+  .sales-order-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .sales-order-table th,
+  .sales-order-table td {
+    padding: 12px 15px;
+    border: 1px solid #dddddd;
+  }
+  
+  .sales-order-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .sales-order-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .sales-order-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+  }
+  
+  .sales-order-table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  

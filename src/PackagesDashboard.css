@@ -1,0 +1,50 @@
+/* PackagesDashboard.css */
+.packages-dashboard {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .package-column {
+    width: 30%;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .package-column.not-shipped {
+    background-color: #e0f7fa;
+  }
+  
+  .package-column.shipped {
+    background-color: #fff9c4;
+  }
+  
+  .package-column.delivered {
+    background-color: #c8e6c9;
+  }
+  
+  .column-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .column-header h2 {
+    margin: 0;
+  }
+  
+  .menu-icon {
+    cursor: pointer;
+  }
+  
+  .column-content {
+    text-align: center;
+    padding: 20px;
+    border: 1px dashed #ccc;
+    border-radius: 4px;
+  }
+  

@@ -1,0 +1,29 @@
+.item-groups-wrapper {
+  background-color: #FFF8EE !important; 
+  padding: 20px;
+}
+
+.item-groups-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #FFF8EE !important; 
+}
+
+.item-groups-table th, .item-groups-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.item-groups-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.group-header {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+  text-align: left;
+  padding: 10px;
+}

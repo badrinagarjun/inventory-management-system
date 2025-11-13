@@ -1,0 +1,41 @@
+/* SalesOrderTable.css */
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-container h2 {
+  margin-right: 10px; /* Adjust the space between the heading and the button */
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  color: black; /* Ensures the icon color is black */
+}
+
+.icon-button:hover {
+  color: black; /* Prevent color change on hover */
+}
+
+.sales-order-table th, .sales-order-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.sales-order-table th {
+  background-color: #499574;
+  text-align: left;
+}
+
+.sales-order-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.sales-order-table tr:hover {
+  background-color: #ddd;
+}

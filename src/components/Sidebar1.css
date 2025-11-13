@@ -1,0 +1,18 @@
+.sidebar-header {
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #181C2E;
+    color: #faf9f9;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .custom-sidebar .MuiDrawer-paper {
+    background-color: #908da9; 
+  }
+  
+  .MuiListItemText-inset {
+    padding-left: 32px;
+  }
+  

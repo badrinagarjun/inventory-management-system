@@ -1,0 +1,70 @@
+.item-groups-manager ul {
+  padding: 0;
+  list-style: none;
+}
+
+.item-groups-manager .group-container {
+  width: 80%;
+  margin-bottom: 16px;
+}
+
+.item-groups-manager .group-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.item-groups-manager .group-name {
+  flex-grow: 1;
+}
+
+.item-groups-manager .delete-button {
+  color: red;
+}
+
+.item-groups-manager .group-items {
+  padding-left: 32px;
+  margin-top: 8px;
+}
+
+.item-groups-manager .group-items li {
+  padding: 4px 0;
+}
+
+.group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.item-details {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-details span {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.item-details .delete-button {
+  color: black; 
+  padding: 5px;
+  font-size: 0.75rem; 
+}
+
+.edit-button {
+  margin-left: 10px;
+}

@@ -1,0 +1,55 @@
+/* AddSalesOrderPage.css */
+
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.contentContainer {
+  display: flex;
+  flex: 1;
+}
+
+.mainContent {
+  flex: 1;
+  margin-top: 80px; /* Adjusted margin to fit below AppBar */
+  margin-left: 240px; /* Adjust this width based on the Sidebar's width */
+  padding: 20px;
+}
+
+.centeredContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.addSalesOrderGrid, .salesOrderTableGrid {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.paper {
+  padding: 26px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333;
+  font-family: 'Arial', sans-serif;
+}
+
+.addSalesOrderGrid {
+  background-color: #e3f2fd;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.salesOrderTableGrid {
+  background-color: #fff3e0;
+  padding: 20px;
+  border-radius: 8px;
+}
